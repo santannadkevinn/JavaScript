@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18pt;
+
+}
+div {
+    
+    width: auto;
+    height: 400px;
+    text-align: center;
+}
+
+
+span#burguer {
+    float: right;
+    margin-right: 50px;
+    font-size: 2em;
+    color: black;
+}
