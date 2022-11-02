@@ -1,13 +1,13 @@
 function contar(){
-    let inicio = document.getElementById('inicio')
-    let ini = inicio.value
-    let fim  = document.getElementById('fim')
-    let end = fim.value
-    let passo = document.getElementById('passo')
-    let step = passo.value
+    let ini = document.getElementById('txti')
+    let fim  = document.getElementById('txtf')
+    let passo = document.getElementById('txtp')
     let res = document.getElementById('res')
     
-    for(let i = ini; i <= end; i += step){
-        res.innerHTML = ` Porra ${i}`
+    if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
+         window.alert('[ERRO] Faltan dados!')
+    }else{
+        res.innerHTML = `'merda'`
     }
-}    
+   
+}
