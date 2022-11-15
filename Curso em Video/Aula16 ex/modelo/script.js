@@ -30,7 +30,8 @@ function adcionar(){
     }else{
         window.alert('Numero invalido ou já inserido')
     }
-    
+    valor.value = ''
+    valor.focus()
     
 }
 
