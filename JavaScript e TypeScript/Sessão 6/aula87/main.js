@@ -16,22 +16,6 @@ function esperaAi(msg, tempo) {
    
 }
 
-esperaAi('Conexão com BD', rand(1, 3))
-    .then(resposta => {
-        console.log(resposta)
-        return esperaAi('Buscando banco de dados...', rand(1, 5))
-    })
-    .then(resposta => {
-        console.log(resposta)
-        return esperaAi(22222, rand(1, 3))
-    })
-    .then(resposta => {
-        console.log(resposta)
-    })
-
-console.log('Isso será exibido antes de qualquer Promise!')
-
-
 //Promise.all, promise.race, promise.resolve, Promise.reject
 
 
